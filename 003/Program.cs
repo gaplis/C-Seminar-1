@@ -1,0 +1,11 @@
+﻿Console.Write("Введите порядковый номер недели от 1 до 7: ");
+int weekDay = int.Parse(Console.ReadLine());
+if (weekDay == 1) Console.WriteLine("Понедельник");
+if (weekDay == 2) Console.WriteLine("Вторник");
+if (weekDay == 3) Console.WriteLine("Среда");
+if (weekDay == 4) Console.WriteLine("Четверг");
+if (weekDay == 5) Console.WriteLine("Пятница");
+if (weekDay == 6) Console.WriteLine("Суббота");
+if (weekDay == 7) Console.WriteLine("Воскресенье");
+if (weekDay > 7) Console.WriteLine("Вы ввели неверное число.");
+if (weekDay < 1) Console.WriteLine("Вы ввели неверное число.");
