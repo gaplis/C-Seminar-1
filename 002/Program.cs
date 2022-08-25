@@ -9,5 +9,5 @@ if(num1 == Math.Pow(num2, 2))
 }
 else
 {
-    Console.WriteLine("Нет:(");
+    Console.WriteLine("Нет :С");
 }
